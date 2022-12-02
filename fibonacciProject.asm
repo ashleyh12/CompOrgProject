@@ -22,5 +22,11 @@ move $a1, $v0
 
 # printing return_fib_number
 li $v0, 4
+la $a0, return_fib_number
+syscall
+
+# printing the result
+li $v0, 1
+move $a0, $a1
 
   
