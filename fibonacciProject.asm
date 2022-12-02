@@ -5,7 +5,7 @@
   error: .asciiz “That is an illegal number\n”
 
 .text
-  #printing prompt 1
+  #printing prompt1
   li $v0, 4
   la $a0, prompt1
   syscall
