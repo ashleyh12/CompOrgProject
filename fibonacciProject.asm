@@ -25,8 +25,14 @@ li $v0, 4
 la $a0, return_fib_number
 syscall
 
-# printing the result
+# returning the result
 li $v0, 1
 move $a0, $a1
+syscall
+
+# exit
+li $v0, 10
+syscall
+.end main
 
   
