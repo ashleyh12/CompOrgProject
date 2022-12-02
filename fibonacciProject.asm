@@ -15,7 +15,8 @@ error: .asciiz “That is an illegal number\n”
   move $a0, $v0
   bge $t0, 25, fib
   jal fibonacci
-  move $a1, $v0 #moving the returned value to a1
+  #moving the returned value to a1
+  move $a1, $v0 
   
 
   
